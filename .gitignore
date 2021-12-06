@@ -1,6 +1,7 @@
 .DS_Store
-.txt
-.pdf
-.jpg
-.png
-.jpeg
+*.txt
+*.pdf
+*.jpg
+*.png
+*.jpeg
+
