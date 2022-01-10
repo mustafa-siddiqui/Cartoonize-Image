@@ -1,16 +1,18 @@
 # Image to Cartoon Converter
-Employ digital image processing and ML techniques to cartoonize images.
+Employ digital image processing and ML techniques (specifically the k-means clustering algorithm) to cartoonize images.
 
-### Process Flow
-* Detect noise in image
-    * Use filters to reduce noise
-* Convert to grayscale
-    * create edge mask
-* Create color-quantized image
-* Bitwise-And color-quantized image and edge mask
-* See different methods for different effects
-    * Water color
-    * Oil-paint
-    * Sketch
-    * Simple Blur
+### Sample Result
+Our professor for the Digital Image Processing Course [@urochester](https://www.rochester.edu) :)
 
+| Original Image | Cartoonized Image  |
+|---|---|
+| ![original](https://github.com/mustafa-siddiqui/Cartoonize-Image/blob/main/original.png)  | ![final](https://github.com/mustafa-siddiqui/Cartoonize-Image/blob/main/final.png) | 
+
+*For detailed results and analysis (considering image noise, varyking # of colors kept, steps in the process and more), see the Jupyter Notebook: [cartoonize.ipynb](https://github.com/mustafa-siddiqui/Cartoonize-Image/blob/main/src/cartoonize.ipynb) in the `src\` folder.*
+
+** works for `.jpg`/`.jpeg` images only **
+
+#### Contributors:  
+* Mahmud Jumaev  
+* Mustafa Siddiqui  
+* Raffay Nawaz
